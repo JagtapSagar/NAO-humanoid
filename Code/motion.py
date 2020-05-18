@@ -30,6 +30,7 @@ def find_position(position):
     # |18| 3| 4| 5|10|
     # |19| 6| 7| 8| 9|
     # |20|21|22|23|24|
+    
     if 15 <= position <= 17:
         return 0
     elif 19 <= position <= 21:
