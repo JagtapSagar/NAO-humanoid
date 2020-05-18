@@ -29,6 +29,7 @@ landmark.csv		- CPT for Landmark Node
 sensorLeft.csv		- CPT for Left Sonar Node
 sensorRight.csv		- CPT for Right Sonar Node
 probabilities.txt	- CPT for transition probabilities
+
 Other CPTs created but not used:
 position_transition_probabilities.csv		- Transition probability of change of state only
 						  Rows: User action input state 0 to 8 (top to bottom order)
@@ -49,7 +50,8 @@ import cpt.py and call ReadInCPTs function from it. This returns SonarLeft, Sona
 
 Other files:
 ============
-location.csv, angle.csv - Used only for indexing purposes
+location.csv, angle.csv		- Used only for indexing purposes
+readings_tornadoes_001.csv	- Tornado team data used for training
 
 Issues fixed with tornado data:
 ===============================
