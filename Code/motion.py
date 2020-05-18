@@ -23,6 +23,13 @@ import csv
 
 
 def find_position(position):
+    # This function returns 9 state matrix equivaluent values for states recorded outside 0-8
+    # The following was the order of numbering for the 5x5 matrix
+    # |16|15|14|13|12|
+    # |17| 0| 1| 2|11|
+    # |18| 3| 4| 5|10|
+    # |19| 6| 7| 8| 9|
+    # |20|21|22|23|24|
     if 15 <= position <= 17:
         return 0
     elif 19 <= position <= 21:
