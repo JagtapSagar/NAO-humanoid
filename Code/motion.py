@@ -10,8 +10,8 @@
 #
 ##########
 # 
-# This script determines the movements based on the particle filtering.
-# It writes/overwrites the probabilities.txt file
+# This script calculates the transition probabilities.
+# It writes the probabilities.txt file
 #
 # Main Method: generateProbabilitiyMatrix()
 #
