@@ -29,6 +29,13 @@ landmark.csv		- CPT for Landmark Node
 sensorLeft.csv		- CPT for Left Sonar Node
 sensorRight.csv		- CPT for Right Sonar Node
 probabilities.txt	- CPT for transition probabilities
+Other CPTs created but not used:
+position_transition_probabilities.csv		- Transition probability of change of state only
+						  Rows: User action input state 0 to 8 (top to bottom order)
+						  Columns: Recorded resulting state 0 to 8 (left to right order)
+orientation_transition_probabilities.csv	- Transition probability of change in orientation only
+						  Rows: User action input Orientation L(-90deg), R(90), S(0) (top to bottom order)
+						  Columns: Recorded resulting Orientation L, R, S (left to right order)
 
 How to interpret CPTs?
 landmark.csv		- The last column in this csv file is the probability of landmark detection
