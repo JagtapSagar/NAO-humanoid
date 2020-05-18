@@ -42,7 +42,7 @@ How to interpret CPTs?
 landmark.csv		- The last column in this csv file is the probability of landmark detection
 sonarLeft.csv		- All columns (excluding first three) index probability for detection of respective sonar values
 sonarRight.csv		- All columns (excluding first three) index probability for detection of respective sonar values
-probabilities.txt	- All rows indicate different actions fiven by the user (order top to bottom: 0L, 0R, 0S, 1L, 1R, ..., 8S)
+probabilities.txt	- All rows indicate different actions given by the user (order top to bottom: 0L, 0R, 0S, 1L, 1R, ..., 8S)
 			  All columns indicate various recorded resulting positions and orientations (order left to right: 0L, 0R, 0S, 1L, 1R, ..., 8S)
 
 How to load the CPTs in scripts?
