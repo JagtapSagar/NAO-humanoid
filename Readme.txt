@@ -13,6 +13,7 @@
 
 Scripts	(# REQUIRES PYTHON 2.7 TO EXECUTE)
 =======
+Following scripts can be found in the "Code" folder
 cpt.py			- Used to load CPTs in to memory
 belief_api.py		- Returns belief of NAOs position
 likelihoodWeighting.py	- Returns weighted distribution for location given evidence
@@ -23,6 +24,7 @@ transition_step.py	- Single step transition
 
 Conditional Probability Tables (CPTs)
 ==============================
+Following csv files can be found in the "Data" folder
 landmark.csv		- CPT for Landmark Node
 sensorLeft.csv		- CPT for Left Sonar Node
 sensorRight.csv		- CPT for Right Sonar Node
