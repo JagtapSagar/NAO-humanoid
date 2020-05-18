@@ -259,6 +259,11 @@ def getTransitionStep(LOCATION_INPUT_CSV_FILENAME = 'location.csv', ANGLE_INPUT_
 
 
 	landmark_count = location_count - int(torso_angle / 11.25) + angle_count
+	
+	# Note: This code has not been updated yet to account for landmark probabilities. 
+	#	It works on an earlier assumption that if landmark is true the probability is high.
+	#	Change/correction is pending.
+	
 	W[2] = W[2] * (0.95 if (Landmark[landmark_count][4] == Landmark_evidence) and (total_yaw == float(Landmark[landmark_count][2])) else 0.05)
 	# W_normalized = normalize(W[0], W[1], W[2])
 	print("Weights for [SL, SR, Landmark] evidences = " + str(W))
