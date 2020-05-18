@@ -38,7 +38,7 @@ probabilities.txt	- All rows indicate different actions fiven by the user (order
 			  All columns indicate various recorded resulting positions and orientations (order left to right: 0L, 0R, 0S, 1L, 1R, ..., 8S)
 
 How to load the CPTs in scripts?
-import and call ReadInCPTs function from cpt.py
+import cpt.py and call ReadInCPTs function from it. This returns SonarLeft, SonarRight,Landmark and Transition CPTs and also Location, Angle data for indexing. 
 
 Other files:
 ============
@@ -46,7 +46,7 @@ location.csv, angle.csv - Used only for indexing purposes
 
 Issues fixed with tornado data:
 ===============================
-Following issue were noticed by observing the tornado team's code and were accounted for.
+Following issue were noticed by observing the tornado team's code and were accounted for in mod_tornado.py and sensor_fusion.py.
 1) Each time the robot moved to an adjacent row the column number would reset too. According to the sequence executed by the tornado team, this was not supposed to happen.
 2) After moving to the adjacent column the robot would be facing 108deg from its heading in the previous column. This was not accounted for.
 3) The tornado team recorded 0 t0 360 deg data as 0 to 320. This was done because the NAO robot seems to rotate a complete 360 deg when a command for 320 was given.
