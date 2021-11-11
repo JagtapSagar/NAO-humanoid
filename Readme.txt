@@ -41,8 +41,8 @@ Other files:
 location.csv, angle.csv		- Used only for indexing purposes
 readings_tornadoes_001.csv	- Tornado team data used for training
 
-Issues fixed with tornado data:
-===============================
+Issues fixed with tornado team's data:
+=====================================
 Following issue were noticed by observing the tornado team's code and were accounted for in mod_tornado.py and sensor_fusion.py.
 1) Each time the robot moved to an adjacent row the column number would reset too. According to the sequence executed by the tornado team, this was not supposed to happen.
 2) After moving to the adjacent column the robot would be facing 108deg from its heading in the previous column. This was not accounted for.
