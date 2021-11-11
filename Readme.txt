@@ -1,15 +1,3 @@
-##########
-#
-# Team Awesome
-# Group Members:
-#	Ran Bi
-#	Samantha Eaton
-#	Sagar Vilas Jagtap
-# Instructor: Dr. M. Silaghi
-# CSE 5694 Spring 2020
-#
-##########
-
 
 Scripts	(# REQUIRES PYTHON 2.7 TO EXECUTE)
 =======
